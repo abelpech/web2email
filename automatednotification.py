@@ -10,7 +10,7 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from keys import pwd
 
-URL = "http://trd.td.teradata.com/Outstanding.asp"
+URL = "http://url.com"
 raw = requests.get(URL) 
 soup = BeautifulSoup(raw.content, 'html5lib')  
 
